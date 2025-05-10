@@ -27,6 +27,107 @@ At the end of the course, the student will be able to:
 - Thread and process synchronisation  
 
 ---
+# Directory Structure: 4th Semester OS Lab – Simran Koshta (B230707CS)
+
+simrankoshta11-4th-semester-nit-calicut-cse-/
+├── README.md
+├── SIMRAN_B230707CS/
+│ ├── Q1.sh
+│ ├── Q2.sh
+│ ├── Q3.sh
+│ ├── Q4.sh
+│ └── Q5.sh
+├── SIMRAN_B230707CS_1/
+│ ├── 1.c
+│ ├── 1.sh
+│ ├── 2.1.c
+│ ├── 2.2.c
+│ ├── 2.sh
+│ ├── 3.c
+│ ├── 3.sh
+│ ├── 4.c
+│ ├── 4.sh
+│ ├── 5.c
+│ ├── 5.sh
+│ ├── arith.c
+│ └── main.c
+├── SIMRAN_B230707CS_3/
+│ ├── Question_1/
+│ │ ├── main.c
+│ │ ├── makefile
+│ │ ├── math.c
+│ │ ├── math.h
+│ │ ├── utils.c
+│ │ └── utils.h
+│ ├── Question_2/
+│ │ ├── makefile
+│ │ ├── include/
+│ │ │ ├── math.h
+│ │ │ └── utils.h
+│ │ └── src/
+│ │ ├── main.c
+│ │ ├── math.c
+│ │ └── utils.c
+│ ├── Question_3/
+│ │ ├── makefile
+│ │ ├── include/
+│ │ │ ├── math.h
+│ │ │ └── utils.h
+│ │ └── src/
+│ │ ├── main.c
+│ │ ├── math.c
+│ │ └── utils.c
+│ └── Question_4/
+│ └── foobar/
+│ ├── makefile
+│ ├── bar/
+│ │ ├── bar1.c
+│ │ ├── bar2.c
+│ │ └── makefile
+│ ├── foo/
+│ │ ├── foo1.c
+│ │ ├── foo2.c
+│ │ ├── foo3.c
+│ │ └── makefile
+│ └── include/
+│ ├── bar.h
+│ ├── common.h
+│ └── foo.h
+├── SIMRAN_B230707CS_4/
+│ ├── Q1/
+│ │ └── tarea.c
+│ ├── Q2/
+│ │ └── fib.c
+│ ├── Q3/
+│ │ ├── correct.c
+│ │ └── program.c
+│ ├── Q4/
+│ │ ├── correct.c
+│ │ └── program.c
+│ └── Q5/
+│ ├── correct.c
+│ └── program.c
+├── SIMRAN_B230707CS_5/
+│ ├── CSE.c
+│ ├── prodcons.c
+│ └── Q3/
+│ ├── child.c
+│ ├── dummy.c
+│ ├── makefile
+│ └── parent.c
+├── SIMRAN_B230707CS_6/
+│ ├── Q1.c
+│ ├── Q2.c
+│ ├── Q3.c
+│ ├── Q4.c
+│ └── Q5.c
+└── SIMRAN_B230707CS_8/
+├── sim1.c
+├── sim2.c
+└── sim3.c
+
+Copy
+Edit
 
 ## Practical Exercises
 
