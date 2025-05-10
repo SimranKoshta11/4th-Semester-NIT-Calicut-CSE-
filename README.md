@@ -126,8 +126,7 @@ simrankoshta11-4th-semester-nit-calicut-cse-/
 ├── sim2.c
 └── sim3.c
 
-Copy
-Edit
+
 
 ## Practical Exercises
 
