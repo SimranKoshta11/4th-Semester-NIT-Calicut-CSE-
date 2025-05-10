@@ -27,104 +27,38 @@ At the end of the course, the student will be able to:
 - Thread and process synchronisation  
 
 ---
-# Directory Structure: 4th Semester OS Lab – Simran Koshta (B230707CS)
+| Directory/File                      | Description                                                                         |
+| ----------------------------------- | ----------------------------------------------------------------------------------- |
+| `simrankoshta11-4th-semester-nit-calicut-cse-/` | Root directory for the repository                                                     |
+| `README.md`                         | Likely contains information about the project, such as instructions or documentation |
+| `SIMRAN_B230707CS/`                | Directory containing shell scripts                                                  |
+| `Q1.sh`, `Q2.sh`, ..., `Q5.sh`      | Shell scripts (likely solutions to lab questions)                                   |
+| `SIMRAN_B230707CS_1/`               | Directory containing C programs and shell scripts                                     |
+| `1.c`, `2.1.c`, `2.2.c`, ..., `arith.c`, `main.c` | C source code files                                                                 |
+| `1.sh`, `2.sh`, ..., `5.sh`         | Shell scripts                                                                       |
+| `SIMRAN_B230707CS_3/`               | Directory containing multiple question directories, each with a makefile and source code |
+| `Question_1/`, `Question_2/`, `Question_3/` | Directories for each question, containing source code, headers, and makefiles          |
+| `main.c`, `math.c`, `utils.c`       | C source code files                                                                 |
+| `math.h`, `utils.h`                 | Header files                                                                        |
+| `makefile`                          | Build automation file                                                               |
+| `Question_4/`                       | Directory for Question 4                                                            |
+| `foobar/`                           | Subdirectory in Question 4, containing more subdirectories and files                |
+| `bar/`, `foo/`                      | Subdirectories in `foobar/`, each with source files and a makefile                   |
+| `bar1.c`, `bar2.c`, `foo1.c`, `foo2.c`, `foo3.c` | C source code files                                                                 |
+| `include/`                          | Include directory containing header files                                           |
+| `bar.h`, `common.h`, `foo.h`        | Header files                                                                        |
+| `SIMRAN_B230707CS_4/`               | Directory containing multiple question directories, each with C programs               |
+| `Q1/`, `Q2/`, `Q3/`, `Q4/`, `Q5/`    | Directories for each question                                                         |
+| `tarea.c`, `fib.c`, `correct.c`, `program.c` | C source code files                                                                 |
+| `SIMRAN_B230707CS_5/`               | Directory containing C programs and a subdirectory `Q3/`                            |
+| `CSE.c`, `prodcons.c`              | C source code files                                                                 |
+| `Q3/`                               | Subdirectory containing source files and a makefile                                   |
+| `child.c`, `dummy.c`, `parent.c`    | C source code files                                                                 |
+| `SIMRAN_B230707CS_6/`               | Directory containing multiple C programs                                              |
+| `Q1.c`, `Q2.c`, `Q3.c`, `Q4.c`, `Q5.c` | C source code files                                                                 |
+| `SIMRAN_B230707CS_8/`               | Directory containing C programs                                                       |
+| `sim1.c`, `sim2.c`, `sim3.c`        | C source code files                                                                 |
 
-simrankoshta11-4th-semester-nit-calicut-cse-/
-├── README.md
-├── SIMRAN_B230707CS/
-│ ├── Q1.sh
-│ ├── Q2.sh
-│ ├── Q3.sh
-│ ├── Q4.sh
-│ └── Q5.sh
-├── SIMRAN_B230707CS_1/
-│ ├── 1.c
-│ ├── 1.sh
-│ ├── 2.1.c
-│ ├── 2.2.c
-│ ├── 2.sh
-│ ├── 3.c
-│ ├── 3.sh
-│ ├── 4.c
-│ ├── 4.sh
-│ ├── 5.c
-│ ├── 5.sh
-│ ├── arith.c
-│ └── main.c
-├── SIMRAN_B230707CS_3/
-│ ├── Question_1/
-│ │ ├── main.c
-│ │ ├── makefile
-│ │ ├── math.c
-│ │ ├── math.h
-│ │ ├── utils.c
-│ │ └── utils.h
-│ ├── Question_2/
-│ │ ├── makefile
-│ │ ├── include/
-│ │ │ ├── math.h
-│ │ │ └── utils.h
-│ │ └── src/
-│ │ ├── main.c
-│ │ ├── math.c
-│ │ └── utils.c
-│ ├── Question_3/
-│ │ ├── makefile
-│ │ ├── include/
-│ │ │ ├── math.h
-│ │ │ └── utils.h
-│ │ └── src/
-│ │ ├── main.c
-│ │ ├── math.c
-│ │ └── utils.c
-│ └── Question_4/
-│ └── foobar/
-│ ├── makefile
-│ ├── bar/
-│ │ ├── bar1.c
-│ │ ├── bar2.c
-│ │ └── makefile
-│ ├── foo/
-│ │ ├── foo1.c
-│ │ ├── foo2.c
-│ │ ├── foo3.c
-│ │ └── makefile
-│ └── include/
-│ ├── bar.h
-│ ├── common.h
-│ └── foo.h
-├── SIMRAN_B230707CS_4/
-│ ├── Q1/
-│ │ └── tarea.c
-│ ├── Q2/
-│ │ └── fib.c
-│ ├── Q3/
-│ │ ├── correct.c
-│ │ └── program.c
-│ ├── Q4/
-│ │ ├── correct.c
-│ │ └── program.c
-│ └── Q5/
-│ ├── correct.c
-│ └── program.c
-├── SIMRAN_B230707CS_5/
-│ ├── CSE.c
-│ ├── prodcons.c
-│ └── Q3/
-│ ├── child.c
-│ ├── dummy.c
-│ ├── makefile
-│ └── parent.c
-├── SIMRAN_B230707CS_6/
-│ ├── Q1.c
-│ ├── Q2.c
-│ ├── Q3.c
-│ ├── Q4.c
-│ └── Q5.c
-└── SIMRAN_B230707CS_8/
-├── sim1.c
-├── sim2.c
-└── sim3.c
 
 
 
